@@ -1171,9 +1171,9 @@ button{
     display: block;
 }
 
-.am .buut{
+/* .am .buut{
 
-}
+} */
 .am .buut button{
     margin-top: 70px;
     margin-left: 170px;
@@ -1318,7 +1318,9 @@ button{
 .vtu{
     margin-top: 50px;
     display: block;
-    margin-left: 350px;
+    margin-left: 300px;
+    height: 700px;
+    /* background-color: #629b0d; */
     overflow-x: hidden;
 }
 .vtu.active{
@@ -1326,61 +1328,198 @@ button{
     display: block;
 }
 .vtu .come{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 50px;
-    outline: none;
+    height: 500px;
+    margin-left: 50px;
+}
+.vtu .top-choice{
+    /* background-color: #629b0d; */
+    height: 120px;
+    width: 400px;
+    margin-left: 300px;
+}
+.vtu .top-choice img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.vtu .top-choice div{
+    cursor: pointer;
+    /* display: inline; */
+    float: left;
+    margin-right: 100px;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    box-shadow: var(--shadow);
+}
+.vtu .top-choice .choice1.active,
+.vtu .top-choice .choice2.active{
+    box-shadow: none;
+}
+.vtu .top-choice p{
+    margin-left: 15px;
 }
 
-.vtu .come select{
-    width: 880px;
-    padding-left: 10px;
+
+
+
+
+
+.vtu .top-up{
+    height: 500px;
+    /* background-color: #629b0d; */
+    display: block;
+}
+.vtu .top-nav,
+.vtu .cab-nav{
+    margin-left: -40px;
+}
+.vtu .top-up.active{
+    /* margin-left: -40px; */
+    display: none;
+}
+.vtu ul{
     height: 50px;
-    font-size: 20px;
-    border: 2px solid black;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
+
 }
-.vtu .come p{
-    font-weight: 600;
-}
-.vtu .come input{
-    width: 860px;
-    padding-left: 30px;
-    height: 40px;
-    outline: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px solid black;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.vtu .come .netdiv{
-    margin-bottom: 50px;
-    margin-left: 150px;
-}
-.vtu .come .netdiv div{
-    float: left;
-    margin-left: 40px;
-    background-color: #5F2C84;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+.vtu ul li{
     cursor: pointer;
-    box-shadow: var(--dark-shadow);
+    display: inline;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: all 0.1s ease-in-out;
 }
-.vtu .come .netdiv div img{
-    width: 50px;
-    height: 50px;
-    margin-top: 25px;
-    margin-left: 25px;
-    border-radius: 50px;
+
+.vtu #air:hover,
+.vtu #dat:hover{
+    border-bottom: 2px solid red;
 }
-.vtu .come button{
-    width: 890px;
-    margin-top: 30px;
-    height: 50px;
-    border-radius: 50px;
-    border: none;
-    background: var(--slg);
+.vtu #air{
+    border-bottom: 2px solid red;
+}
+.vtu #air.active{
+    border-bottom: none;
+}
+.vtu #dat{
+    border-bottom: none;
+}
+.vtu #dat.active{
+    border-bottom: 2px solid red;
+}
+
+
+
+
+.vtu .airtime{
+    display: block;
+}
+.vtu .airtime.active{
+    display: none;
+}
+
+.vtu .data{
+    display: none;
+}
+.vtu .data.active{
+    display: block;
+}
+
+
+
+
+
+.vtu .cables .cab-nav ul #ds:hover,
+.vtu .cables .cab-nav ul #go:hover,
+.vtu .cables .cab-nav ul #star:hover,
+.vtu .cables .cab-nav ul #ts:hover{
+   border-bottom: 2px solid red;
+}
+.vtu #ds{
+   border-bottom: 2px solid red;
+}
+.vtu #ds.active{
+   border-bottom: none;
+}
+.vtu #go{
+   border-bottom: none;
+}
+.vtu #go.active{
+   border-bottom: 2px solid red;
+}
+.vtu #star{
+   border-bottom: none;
+}
+.vtu #star.active{
+   border-bottom: 2px solid red;
+}
+.vtu #ts{
+   border-bottom: none;
+}
+.vtu #ts.active{
+   border-bottom: 2px solid red;
+}
+
+
+
+
+.vtu label{
+font-weight: 500;
+font-size: 20px;
+}
+.vtu .top-up select,
+.vtu .cables select{
+margin-bottom: 20px;
+height: 40px;
+width: 815px;
+}
+.vtu .top-up input,
+.vtu .cables input{
+margin-bottom: 20px;
+width: 800px;
+height: 40px;
+}
+.vtu .top-up button,
+.vtu .cables button{
+margin-left: 0px;
+}
+
+
+.vtu .cables{
+display: none;
+}
+.vtu .cables.active{
+display: block;
+}
+
+
+.vtu .ds{
+display: block;
+}
+.vtu .ds.active{
+display: none;
+}
+
+.vtu .goo{
+display: none;
+}
+.vtu .goo.active{
+display: block;
+}
+
+.vtu .star{
+display: none;
+}
+.vtu .star.active{
+display: block;
+}
+
+.vtu .ts{
+display: none;
+}
+.vtu .ts.active{
+display: block;
 }
 
 
@@ -1560,9 +1699,9 @@ button{
     .left-side .side-nav{
         font-size: 10px;
     }
-    .left-side .side-nav ul{
+    /* .left-side .side-nav ul{
 
-    }
+    } */
     .left-side .side-nav ul a li{
         padding-left: px;
         padding-top: 10px;
@@ -1647,9 +1786,9 @@ button{
         margin-left: 250px;
         transform: translateY(30px);
     }
-    .side-bar #bell.active{
+    /* .side-bar #bell.active{
 
-    }
+    } */
     .side-bar .sear{
         margin-top: 50px;
     }
@@ -1923,11 +2062,11 @@ button{
 
 
     .over{
-        margin-top: -1400px;
+        margin-top: -1700px;
     }
     .am{
         margin-left: -3px;
-        margin-top: -1350px;
+        margin-top: -1600px;
         height: 420px;
         width: 190px;
     }
@@ -1958,9 +2097,17 @@ button{
         margin-top: 20px;
         font-size: 10px;
     }
+    .am #ask{
+        margin-left: 20px;
+        font-size: 6px;
+        position: fixed;
+    }
+    .am .buut{
+        margin-top: 20px;
+    }
     .am .buut button{
         margin-left: 20px;
-        margin-top: 30px;
+        margin-top: 200px;
     }
 
 
@@ -1978,12 +2125,32 @@ button{
         margin-left: 0px;
     }
 
+    .vtu .come{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .vtu .come .top-choice{
+        margin-left: 0px;
+    }
+    .vtu .come .top-choice div{
+        margin-right: 10px;
+    }
+    .vtu .come .top-nav ul li,
+    .vtu .come .cab-nav ul li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 10px;
+    }
+
+    .vtu .come label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
     .vtu .come select{
         width: 180px;
         height: 30px;
         border: 1px solid black;
         border-bottom-left-radius: 5px;
         border-top-right-radius: 5px;
+        outline: none;
     }
 
     .vtu .come input{
@@ -1993,6 +2160,7 @@ button{
         border: 1px solid black;
         border-bottom-left-radius: 5px;
         border-top-right-radius: 5px;
+        outline: none;
     }
     .vtu .come .netdiv{
         margin-bottom: 50px;
@@ -2013,9 +2181,12 @@ button{
         margin-left: 10px;
     }
     .vtu .come button{
+        background: var(--slg);
         margin-left: 0px;
         width: 180px;
         height: 40px;
+        border: none;
+        border-radius: 50px;
     }
 
 
@@ -2030,9 +2201,9 @@ button{
     .tools .tools-nav{
         margin-left: -50px;
     }
-    .tools .tools-nav ul{
+    /* .tools .tools-nav ul{
 
-    }
+    } */
     .tools .tools-nav ul li{
         font-size: 10px;
         margin-left: 10px;
@@ -2220,8 +2391,11 @@ button{
         font-size: 6px;
         padding-bottom: -30px;
     }
+    /* .am .buut{
+        margin-top: 40px;
+    } */
     .am .buut{
-        margin-top: -5px;
+        margin-top: 15px;
         margin-left: 20px;
     }
 
@@ -2230,6 +2404,17 @@ button{
 
 
 
+    .vtu .come .top-choice{
+        margin-left: 30px;
+    }
+    .vtu .come .top-choice div{
+        margin-right: 10px;
+    }
+    .vtu .come .top-nav ul li,
+    .vtu .come .cab-nav ul li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 10px;
+    }
     .vtu .come select{
         width: 230px;
     }
@@ -2389,7 +2574,7 @@ button{
         width: 240px;
     }
     .am .buut{
-        margin-top: -5px;
+        margin-top: 15px;
         margin-left: 50px;
     }
 
@@ -2399,6 +2584,17 @@ button{
 
 
 
+    .vtu .come .top-choice{
+        margin-left: 50px;
+    }
+    .vtu .come .top-choice div{
+        margin-right: 10px;
+    }
+    .vtu .come .top-nav ul li,
+    .vtu .come .cab-nav ul li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 10px;
+    }
     .vtu .come select{
         width: 280px;
     }
@@ -2539,6 +2735,9 @@ button{
         width: 250px;
         margin-left: 30px;
     }
+    .am #ask{
+        margin-left: 40px;
+    }
     .am input {
         margin-left: 30px;
     }
@@ -2550,6 +2749,17 @@ button{
 
 
 
+    .vtu .come .top-choice{
+        margin-left: 90px;
+    }
+    .vtu .come .top-choice div{
+        margin-right: 10px;
+    }
+    .vtu .come .top-nav ul li,
+    .vtu .come .cab-nav ul li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 10px;
+    }
     .vtu .come select{
         width: 330px;
     }
@@ -2703,12 +2913,182 @@ button{
     .wallet{
         margin-left: 15px;
     }
+    .am{
+        margin-left: 30px;
+    }
+
+
+
+    .vtu .come .top-choice{
+        margin-left: 110px;
+    }
+    .vtu .come .top-choice div{
+        margin-right: 30px;
+    }
+    .vtu .come .top-nav ul li,
+    .vtu .come .cab-nav ul li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 10px;
+    }
+    .vtu .come select{
+        width: 370px;
+    }
+    .vtu .come input{
+        width: 355px;
+    }
+    .vtu .come .netdiv{
+        margin-left: 70px;
+    }
+    .vtu .come button{
+        margin-left: 100px;
+    }
+   
 }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 450px){
+
+    .sure{
+        margin-left: 50px;
+    }
+
+    .side-bar{
+        padding-left: 90px;
+    }
+    .side-bar .ham{
+        margin-left: -60px;
+    }
+
+    .tootop{
+        margin-left: 350px;
+    }
+
+    .noti-down{
+        margin-left: 150px;
+    }
+
+
+
+    .pland{
+        margin-left: 30px;
+    }
+
+
+
+    .withdraw .bl{
+        width: 360px;
+    }
+    .withdraw .bl #balnum{
+        margin-left: 250px;
+        font-weight: 500;
+    }
+    .withdraw #withinp{
+        width: 350px;
+    }
+    .withdraw #ask{
+        font-size: 10px;
+    }
+    .withdraw #buttt{
+        margin-left: 100px;
+    }
+    .pin{
+        margin-left: 90px;
+    }
+
+
+
+    .wallet{
+        margin-left: -10px;
+        width: 450px;
+        height: 900px;
+    }
+    .wallet .six-divs{
+        width: 500px;
+        height: 150px;
+    }
+    .wallet .six-divs div{
+        width: 180px;
+        display: inline;
+    }
+    
+    .wallet .twwo-divs{
+        height: 100px;
+    }
+    .wallet .twwo-divs div{
+        margin-right: -40px;
+    }
+    .wallet .twwo-divs .aone{
+        width: 180px;
+        margin-right: 10px;
+    }
+    .wallet .twwo-divs .atwo{
+        width: 220px;
+    }
+
+
+    .over{
+        margin-top: -1050px;
+    }
+    .am{
+        margin-left: 20px;
+        width: 400px;
+        margin-top: -900px;
+    }
+    .am #hd{
+        margin-left: 150px;
+        font-size: 25px;
+    }
+    .am p{
+        width: 330px;
+    }
+    .am input{
+        width: 330px;
+    }
+    .am #ask{
+        margin-left: 100px;
+        position: fixed;
+    }
+
+
+
+
+
+
+
+    .vtu{
+        margin-left: 30px;
+    }
+    /* .vtu .top-up,
+    .vtu .cables{
+        margin-left: 30px;
+    } */
+     
+}
 
 
 
@@ -4015,9 +4395,9 @@ button{
         display: block;
     }
     
-    .am .buut{
+    /* .am .buut{
     
-    }
+    } */
     .am .buut button{
         margin-top: 70px;
         margin-left: 170px;
