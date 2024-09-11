@@ -375,6 +375,13 @@
 
     <script>
 
+document.querySelector(".vtu").addEventListener("click", function(){
+    document.querySelector(".left-side").classList.remove("active")
+    document.querySelector(".noti-down").classList.remove("active")
+    document.querySelector(".tootop").classList.remove("active")
+    document.querySelector("#around").classList.remove("active")
+})
+
         document.querySelector(".choice1").addEventListener("click", function(){
             // window.alert("lll")
             document.querySelector(".top-up").classList.remove("active");

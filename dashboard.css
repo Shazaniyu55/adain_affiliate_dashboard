@@ -4342,57 +4342,94 @@ display: block;
 @media (min-width:1200px){
 
     .side-bar{
-        padding-left: 550px;
+        padding-left: 500px;
     }
 
     .tootop{
-        margin-left: 1110px;
+        margin-left: 1050px;
+    }
+    .noti-down{
+        margin-top: -5px;
+        margin-left: 850px;
+    }
+    .pland .sub-nav{
+        width: 900px;
     }
     .pland .sub-nav ul li{
-        font-size: 14px;
+        font-size: 12px;
     }
     .pland .basicE .nav{
-        width: 820px;
+        width: 725px;
         font-size: 13px;
     }
     .pland .basicE .nav2{
-        width: 800px;
+        width: 720px;
         font-size: 12px;
     }
     #pp2{
-        margin-right: 230px;
+        margin-right: 210px;
     }
     #pp{
-        margin-right: 170px;
+        margin-right: 0px;
     }
     
     #pp3{
         margin-right: 140px;
     }
     .pland .basicE .but button{
-        width: 820px;
+        margin-left: 0px;
+        width: 750px;
     }
     
 
 
     .withdraw .bl{
-        width: 760px;
+        margin-left: 50px;
+        width: 740px;
+    }
+    .withdraw .bl #balnum{
+        margin-left: 550px;
     }
     .withdraw #withinp{
+        margin-left: 50px;
         width: 720px;
     }
+    .withdraw #ask{
+        margin-left: 50px;
+    }
     .withdraw #buttt{
-        width: 760px;
+        margin-left: 50px;
+        width: 740px;
+    }
+    .overlay{
+        height: 800px;
+        margin-top: -550px;
     }
     .pin{
+        width: 350px;
+        height: 300px;
         margin-left: 400px;
     }
-
+    .pin p{
+        font-size: 30px;
+        width: 250px;
+    }
+    .pin #pin{
+        margin-top: 10px;
+        width: 290px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    .pin #Sub{
+        margin-left: 100px;
+        width: 150px;
+    }
 
 
 
 
     .wallet .six-divs{
+        height: 0px;
         width: 1000px;
     }
     .wallet .six-divs div{
@@ -4412,6 +4449,9 @@ display: block;
     }
 
 
+    .vtu{
+        margin-left: 330px;
+    }
     .vtu .come select{
         width: 785px;
     }
@@ -4431,6 +4471,18 @@ display: block;
 
 
 
+
+
+
+
+@media (min-width: 1280px){
+
+
+    .pland .basicE .but button{
+        margin-left: 0px;
+    }
+    
+}
 
 
 
@@ -6118,3 +6170,21 @@ display: block;
         margin-left: 1200px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
