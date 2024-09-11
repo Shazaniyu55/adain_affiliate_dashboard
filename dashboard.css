@@ -501,6 +501,9 @@ button{
 .pland.active{
     display: none;
 }
+.pland.highlight{
+    filter: blur(10px);
+}
 .pland #head{
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1763,8 +1766,8 @@ display: block;
 
     .side-bar .ham{
         display: block;
-        margin-top: -5px;
-        margin-left: 190px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .side-bar .ham img{
         width: 15px;
@@ -1969,6 +1972,7 @@ display: block;
         border-top-right-radius: 10px;
     }
     .withdraw #ask{
+        position: fixed;
         display: none;
         margin-left: 20px;
         font-size: 6px;
@@ -1976,6 +1980,7 @@ display: block;
 
 
     .withdraw #buttt{ 
+        margin-top: 50px;
         margin-left: 0px;
         width: 180px;
         height: 40px;
@@ -2103,11 +2108,14 @@ display: block;
         position: fixed;
     }
     .am .buut{
-        margin-top: 20px;
+        margin-top: -20px;
     }
     .am .buut button{
+        display: block;
+        margin-top: 50px;
+        /* width: 200px; */
         margin-left: 20px;
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
 
 
@@ -2128,6 +2136,7 @@ display: block;
     .vtu .come{
         margin-top: 50px;
         margin-left: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .vtu .come .top-choice{
         margin-left: 0px;
@@ -2398,7 +2407,13 @@ display: block;
         margin-top: 15px;
         margin-left: 20px;
     }
-
+    .am .buut button{
+        display: block;
+        margin-top: 30px;
+        /* width: 200px; */
+        margin-left: 20px;
+        /* margin-top: 200px; */
+    }
 
 
 
@@ -2622,7 +2637,12 @@ display: block;
 
 
 
+@media (min-height: 650px){
 
+    .left-side{
+        height: 1500px;
+    }
+}
 
 
 
@@ -3073,7 +3093,13 @@ display: block;
         margin-left: 100px;
         position: fixed;
     }
-
+    .am .buut button{
+        display: block;
+        margin-top: 30px;
+        /* width: 200px; */
+        margin-left: 70px;
+        /* margin-top: 200px; */
+    }
 
 
 
@@ -3104,6 +3130,1187 @@ display: block;
 
 
 
+@media (min-width: 500px){
+
+    .sure{
+        margin-left: 90px;
+    }
+    .side-bar{
+        padding-left: 140px;
+    }
+    .tootop{
+        margin-left: 400px;
+    }
+    .side-bar .ham{
+        margin-left: -120px;
+    }
+
+    .noti-down{
+        width: 330px;
+    }
+    .noti-down .noti-all a .noti-info #noti-about{
+        width: 260px;
+    }
+    .noti-down .noti-info .noti-active{
+        margin-left: 270px;
+    }
+
+    .noti-down #noti-bottom{
+        padding-left: 100px;
+    }
+
+
+
+
+
+
+
+    .pland{
+        margin-left: 10px;
+    }
+    .pland .basicE .nav{
+        width: 430px;
+        margin-left: 0px;
+    }
+    .pland .basicE .nav ul li{
+        display: inline;
+        margin-left: -50px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 60px;
+    }
+
+    .pland .basicE .nav2{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 430px;
+    }
+    .pland .basicE .nav2 p{
+        display: inline;
+        width: 300px;
+
+    }
+    #pp{
+        margin-right: 10px;
+    }
+    #pp2{
+        margin-right: 100px;
+    }
+    #pp{
+        margin-right: 50px;
+    }
+    
+    #pp3{
+        margin-right: 60px;
+    }
+    .pland .basicE .but button{
+        margin-left: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .withdraw{
+        margin-left: 30px;
+    }
+    .withdraw .bl{
+        width: 400px;
+    }
+    .withdraw .bl #balnum{
+        font-size: 30px;
+    }
+    .withdraw #withinp{
+        width: 380px;
+    }
+    .withdraw #buttt{
+        margin-left: 130px;
+    }
+
+    .pin{
+        margin-left: 130px;
+    }
+
+
+
+
+
+
+    .wallet{
+        width: 480px;
+    }
+    .wallet .six-divs{
+        margin-left: 20px;
+    }
+    .wallet .six-divs div{
+        width: 220px;
+        margin-left: 10px;
+    }
+    .wallet .twwo-divs .atwo{
+        width: 260px;
+    }
+
+    .am{
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+
+
+
+    .vtu .come .top-choice{
+        margin-left: 130px;
+    }
+    .vtu .come select{
+        width: 420px;
+    }
+    .vtu .come input{
+        width: 405px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 550px){
+
+    .side-bar{
+        padding-left: 200px;
+    }
+    .side-bar .ham{
+        margin-left: -180px;
+    }
+    .tootop{
+        margin-left: 450px;
+    }
+    .noti-down{
+        margin-left: 200px;
+    }
+
+
+    .pland{
+        margin-left: 40px;
+    }
+
+
+    .withdraw{
+        margin-left: 60px;
+    }
+
+
+    .wallet{
+        width: 500px;
+    }
+    .wallet .six-divs div{
+        margin-left: 20px;
+    }
+    .wallet .twwo-divs .atwo{
+        width: 280px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px){
+
+    .side-bar{
+        padding-left: 250px;
+    }
+    .side-bar .ham{
+        margin-left: -230px;
+    }
+    .tootop{
+        margin-left: 500px;
+    }
+
+
+
+/* 
+    .pland{
+        margin-left: ;
+    } */
+    .pland .basicE .nav{
+        width: 490px;
+    }
+    .pland .basicE .nav ul li{
+        display: inline;
+        margin-left: -50px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 80px;
+    }
+
+
+    .pland .basicE .nav2{
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 485px;
+    }
+
+
+
+
+
+
+
+    .withdraw{
+        margin-left: 30px;
+    }
+    .withdraw .bl{
+        height: 150px;
+        width: 500px;
+    }
+    .withdraw .bl #bal{
+        font-size: 23px;
+    }
+    .withdraw .bl #balnum{
+        margin-top: 20px;
+        margin-left: 300px;
+        font-size: 35px;
+    }
+    .withdraw #withinp{
+        width: 485px;
+    }
+    .withdraw #buttt{
+        margin-left: 170px;
+    }
+
+    .overlay{
+        height: 700px;
+        margin-top: -550px;
+    }
+
+    .pin{
+        width: 300px;
+        height: 250px;
+    }
+    .pin p{
+        width: 200px;
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .pin #pin{
+        width: 250px;
+        margin-left: 10px;
+    }
+    .pin #Sub{
+        margin-left: 80px;
+    }
+
+
+
+
+
+
+
+
+
+    .wallet{
+        width: 600px;
+    }
+    .wallet .six-divs{
+        width: 600px;
+    }
+    .wallet .six-divs div{
+        width: 260px;
+    }
+
+    .wallet .twwo-divs .aone{
+        width: 200px;
+    }
+    .wallet .twwo-divs .atwo{
+        width: 340px;
+    }
+
+    .am{
+        margin-left: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .vtu .come .top-choice{
+        margin-left: 170px;
+    }
+    .vtu .come input{
+        width: 500px;
+    }
+    .vtu .come select{
+        width: 515px;
+    }
+    .vtu .come button{
+        margin-left: 170px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 650px){
+
+
+    .side-bar{
+        padding-left: 300px;
+    }
+    .side-bar .ham{
+        margin-left: -280px;
+    }
+
+    .tootop{
+        margin-left: 550px;
+    }
+
+    .noti-down{
+        margin-left: 330px;
+    }
+    .pland .sub-nav{
+        width: 550px;
+        margin-left: -20px;
+    }
+
+
+
+
+    .wallet{
+        width: 630px;
+    }
+    .wallet .six-divs{
+        width: 630px;
+    }
+    .wallet .six-divs div{
+        width: 280px;
+    }
+
+    .wallet .twwo-divs .atwo{
+        width: 380px;
+    }
+    .wallet .twwo-divs .atwo #get{
+        margin-left: 300px;
+    }
+
+
+
+    .vtu{
+        margin-left: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+
+    .side-bar{
+        padding-left: 350px;
+    }
+    .side-bar .ham{
+        margin-left: -340px;
+    }
+    .tootop{
+        margin-left: 600px;
+    }
+
+
+
+
+    .pland{
+        margin-left: 90px;
+    }
+
+    .withdraw{
+        margin-left: 70px;
+    }
+    .pin{
+        margin-left: 200px;
+    }
+
+
+    .wallet{
+        margin-left: 25px;
+    }
+    .am{
+        margin-left: 150px;
+    }
+
+
+    .vtu{
+        margin-left: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 750px){
+
+    .side-bar{
+        padding-left: 400px;
+    }
+    .side-bar .ham{
+        margin-left: -390px;
+    }
+    .tootop{
+        margin-left: 650px;
+    }
+
+
+    .noti-down{
+        width: 350px;
+    }
+
+
+    .pland{
+        margin-left: 50px;
+    }
+    .pland .sub-nav{
+        width: 600px;
+    }
+    .pland .sub-nav ul li{
+        font-size: 12px;
+    }
+
+
+    .pland .basicE .nav{
+        width: 600px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 110px;
+    }
+
+    .pland .basicE .nav2{
+        width: 600px;
+    }
+    #pp{
+        /* background-color: #629b0d; */
+        padding-right: 50px;
+    }
+    #pp2{
+        margin-right: 170px;
+    }
+    #pp{
+        margin-right: 50px;
+    }
+    
+    #pp3{
+        margin-right: 100px;
+    }
+    .pland .basicE .but button{
+        margin-left: 200px;
+    }
+
+
+
+
+
+
+    .withdraw .bl{
+        width: 550px;
+    }
+    .withdraw .bl #balnum{
+        margin-left: 360px;
+    }
+    .withdraw #withinp{
+        width: 540px;
+    }
+    .withdraw #buttt{
+        margin-left: 200px;
+    }
+
+
+
+
+
+
+
+
+    .wallet{
+        width: 670px;
+    }
+    .wallet .six-divs{
+        width: 670px;
+    }
+    .wallet .six-divs div{
+        width: 300px;
+    }
+
+    .wallet .twwo-divs .atwo{
+        width: 420px;
+    }
+    .wallet .twwo-divs .atwo #get{
+        margin-left: 340px;
+    }
+
+
+
+    .vtu .come .top-choice{
+        margin-left: 230px;
+    }
+    .vtu .come input{
+        width: 570px;
+    }
+    .vtu .come select{
+        width: 585px;
+    }
+    .vtu .come button{
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 750px) and (min-height: 650px){
+
+    .left-side{
+        height: 1500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+    
+
+    .side-bar{
+        padding-left: 450px;
+    }
+    .side-bar .ham{
+        margin-left: -440px;
+    }
+    .tootop{
+        margin-left: 700px;
+    }
+
+    .noti-down{
+        margin-left: 400px;
+    }
+}
+
+
+@media (min-width: 800px) and (min-height: 650px){
+
+    .left-side{
+        height: 1500px;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 850px){
+
+
+    .side-bar{
+        padding-left: 500px;
+    }
+    .side-bar .ham{
+        margin-left: -490px;
+    }
+    .tootop{
+        margin-left: 750px;
+    }
+
+
+
+
+    .pland .sub-nav{
+        width: 700px;
+    }
+
+    .pland .basicE .nav{
+        width: 700px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+        margin-left: -35px;
+    margin-right: 130px;
+    }
+
+    .pland .basicE .nav2{
+        width: 695px;
+    }
+
+    #pp{
+        padding-right: 90px;
+        margin-right: 100px;
+    }
+    #pp2{
+        margin-right: 180px;
+    }
+    #pp3{
+        margin-right: 100px;
+    }
+    .pland .basicE .but button{
+        margin-left: 250px;
+    }
+
+
+
+
+
+    .withdraw{
+        margin-left: 130px;
+    }
+    .withdraw #withinp{
+        height: 50px;
+    }
+
+
+
+    .wallet{
+        margin-left: 60px;
+    }
+
+
+    .vtu{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px){
+
+    .left-side{
+        margin-top: -50px;
+        display: block;
+        margin-left: -10px;
+        width: 310px;
+    }
+    .left-side .dontsho{
+        display: none;
+    }
+    .left-side .side-nav{
+        margin-top: 50px;
+    }
+    .left-side .side-nav ul li{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .tootop{
+        margin-top: -10px;
+        margin-left: 800px;
+    }
+    .noti-down{
+        margin-left: 550px;
+        height: 400px;
+        width: 300px;
+    }
+    .noti-down .noti-info .noti-active{
+        margin-left: 230px;
+    }
+    .noti-down .noti-all{
+        height: 250px;
+    }
+    .side-bar{
+        margin-top: -70px;
+        padding-left: 230px;
+        margin-left: 300px;
+    }
+    .side-bar .ham{
+        display: none;
+    }
+
+
+
+    .pland{
+        margin-left: 310px;
+    }
+    .pland .sub-nav{
+        padding-right: 0px;
+        /* background-color: var(--purple); */
+        margin-left: 0px;
+    }
+    .pland .sub-nav ul{
+        margin-left: -30px;
+    }
+    .pland .sub-nav ul li{
+        border: none;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+
+    .pland .basicE .nav{
+        width: 540px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 70px;
+    }
+
+    .pland .basicE .nav2{
+        width: 540px;
+    }
+    #pp{
+        margin-right: 10px;
+    }
+    #pp2{
+        margin-right: 130px;
+    }
+    #pp3{
+        margin-right: 80px;
+    }
+    .pland .basicE .but button{
+        margin-left: 200px;
+    }
+
+
+    .withdraw{
+        margin-left: 310px;
+    }
+
+
+
+
+
+    .wallet{
+        width: 610px;
+        margin-left: 280px;
+    }
+    .wallet .six-divs{
+        width: 590px;
+    }
+    .wallet .six-divs div{
+        width: 260px;
+    }
+
+    .wallet .twwo-divs .atwo{
+        width: 340px;
+    }
+    .wallet .twwo-divs .atwo #get{
+        margin-left: 270px;
+    }
+
+
+    .vtu{
+        margin-left: 330px;
+    }
+    .vtu .come input{
+        width: 500px;
+    }
+    .vtu .come select{
+        width: 515px;
+    }
+}
+
+@media (min-width: 900px) and (min-height: 650px){
+
+    .left-side{
+        height: 1000px;
+    }
+}
+
+
+
+
+
+
+
+
+@media  (min-width: 950px){
+
+    .side-bar{
+        padding-left: 290px;
+    }
+    .tootop{
+        margin-left: 850px;
+    }
+    .noti-down{
+        margin-left: 600px;
+    }
+
+    .pland{
+        margin-left: 330px;
+    }
+
+    .withdraw{
+        margin-left: 330px;
+    }
+
+    .wallet{
+        margin-left: 320px;
+    }
+
+    .vtu{
+        height: 535px;
+        margin-left: 350px;
+    }
+    .vtu .come{
+        height: -150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px){
+
+
+    .side-bar{
+        padding-left: 340px;
+    }
+    .tootop{
+        margin-left: 900px;
+    }
+    .noti-down{
+        margin-left: 650px;
+    }
+
+
+    .pland .basicE .nav{
+        width: 600px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 90px;
+    }
+
+    .pland .basicE .nav2{
+        width: 600px;
+    }
+    #pp{
+        margin-right: 10px;
+    }
+    #pp2{
+        margin-right: 170px;
+    }
+    #pp3{
+        margin-right: 100px;
+    }
+
+
+
+
+
+
+
+
+    .wallet {
+        margin-left: 330px;
+        width: 650px;
+    }
+    .wallet .six-divs {
+        width: 650px;
+    }
+    .wallet .six-divs div{
+        width: 290px;
+    }
+
+    .wallet .twwo-divs .atwo{
+        width: 400px;
+    }
+    .wallet .twwo-divs .atwo #get{
+        margin-left: 330px;
+    }
+
+
+
+
+
+    .vtu .come input{
+        width: 560px;
+    }
+    .vtu .come select{
+        width: 575px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 1000px){
+
+    .left-side{
+        height: 2000px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1050px){
+
+    .side-bar{
+        padding-left: 400px;
+    }
+    .tootop{
+        margin-left: 950px;
+    }
+    .noti-down{
+        margin-left: 700px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1100px){
+
+    .side-bar{
+        padding-left: 440px;
+    }
+    .tootop{
+        margin-left: 1000px;
+    }
+    .noti-down{
+        margin-left: 750px;
+    }
+
+
+
+
+
+    .pland .sub-nav ul li{
+        margin-left: 30px;
+    }
+    .pland .basicE .nav{
+        width: 700px;
+    }
+    #bbb,
+    #bbb2,
+    #bbb3{
+    margin-right: 130px;
+    }
+
+    .pland .basicE .nav2{
+        width: 700px;
+    }
+    #pp{
+        padding-right: 150px;
+        margin-right: 10px;
+    }
+    #pp2{
+        margin-right: 200px;
+    }
+    #pp3{
+        margin-right: 100px;
+    }
+
+    .pland .basicE .but button{
+        margin-left: 300px;
+    }
+
+
+
+
+
+
+
+    .withdraw .bl{
+        margin-left: 100px;
+    }
+    .withdraw #withinp{
+        margin-left: 100px;
+    }
+    .withdraw #buttt{
+        margin-left: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .vtu{
+        margin-left: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1150px){
+
+    .side-bar{
+        padding-right: 300px;
+        padding-left: 490px;
+    }
+    .tootop{
+        margin-left: 1050px;
+    }
+
+
+
+
+    .pland{
+        margin-left: 350px;
+    }
+
+
+
+
+
+    .wallet {
+        width: 810px;
+    }
+    .wallet .six-divs{
+        width: 800px;
+    }
+    .wallet .six-divs div{
+        width: 350px;
+    }
+
+    .wallet .twwo-divs .aone{
+        width: 260px;
+    }
+    .wallet .twwo-divs .atwo{
+        width: 460px;
+    }
+}
 
 
 
@@ -3112,11 +4319,11 @@ display: block;
 @media (min-width:1200px){
 
     .side-bar{
-        padding-left: 500px;
+        padding-left: 550px;
     }
 
     .tootop{
-        margin-left: 1050px;
+        margin-left: 1110px;
     }
     .pland .sub-nav ul li{
         font-size: 14px;
@@ -3183,7 +4390,7 @@ display: block;
 
 
     .vtu .come select{
-        width: 800px;
+        width: 785px;
     }
     .vtu .come input{
         width: 770px;
@@ -3192,7 +4399,8 @@ display: block;
         margin-left: 100px;
     }
     .vtu .come button{
-        width: 810px;
+        margin-left: 0px;
+        width: 790px;
     }
 }
 
@@ -4395,9 +5603,9 @@ display: block;
         display: block;
     }
     
-    /* .am .buut{
-    
-    } */
+    .am .buut{
+        display: block;
+    }
     .am .buut button{
         margin-top: 70px;
         margin-left: 170px;

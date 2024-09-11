@@ -1,5 +1,5 @@
 
-    
+
 // window.alert("oooooo")
 
 // window.alert("ddjjddj")
@@ -106,6 +106,7 @@ document.querySelector(".logout").addEventListener("click", function(){
     document.querySelector(".sure").classList.toggle("active")
     document.querySelector("body").classList.toggle("active")
     document.querySelector(".tools").classList.toggle("active")
+    document.querySelector(".pland").classList.toggle("highlight")
     })
 
 
@@ -138,6 +139,7 @@ document.querySelector(".logout").addEventListener("click", function(){
     document.querySelector("#bell").classList.toggle("active")
     document.querySelector(".dark").classList.toggle("active")
     document.querySelector(".sear").classList.toggle("active")
+    document.querySelector(".noti").classList.toggle("active")
     })
     
     

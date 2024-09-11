@@ -57,7 +57,7 @@
         <div class="noti">
             <p id="noti-num">1</p>
         </div>
-        
+         
         <div class="sear">
             <input type="text" name="" id="searchbar">
             <img src="assets/search-svgrepo-com.png" alt="" id="search">
@@ -258,7 +258,7 @@
         // window.alert("input amout first")
         document.querySelector("#withinp").classList.add("active")
         document.querySelector("#ask").classList.add("active")
-        document.querySelector("#buttt").classList.add("active")
+        // document.querySelector("#buttt").classList.add("active")
     }
     else{
         document.querySelector(".pin").classList.add("active")
@@ -287,7 +287,7 @@
 
         let val = document.getElementById("withinp").value;
         setTimeout(() => {
-            window.alert("your Withdrawal of $" + val + " was successful")
+            window.alert("your Withdrawal of ₦" + val + " was successful")
         }, 4000);
 
     document.querySelector(".pin").classList.remove("active")

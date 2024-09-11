@@ -105,7 +105,7 @@
             <div class="noti-active"></div>
         </div></a>
         <a href=""><div class="noti-info">
-            <p id="noti-about"> <span id="noti-name">Tinibu</span> followed You heheheheheheh</p>
+            <p id="noti-about"> <span id="noti-name">Tinibu</span> followed You</p>
             <p id="noti-time">Monday 23</p>
             <div class="noti-active"></div>
         </div></a>
@@ -312,6 +312,14 @@
 
 
 
+    <script>
+        document.querySelector(".pland").addEventListener("click", function(){
+    document.querySelector(".left-side").classList.remove("active")
+    document.querySelector(".noti-down").classList.remove("active")
+    document.querySelector(".tootop").classList.remove("active")
+    document.querySelector("#around").classList.remove("active")
+})
+    </script>
     <script src="dash.js"></script>
 </body>
 </html>
