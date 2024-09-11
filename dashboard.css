@@ -1766,8 +1766,8 @@ display: block;
 
     .side-bar .ham{
         display: block;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 25px;
+        margin-left: 160px;
     }
     .side-bar .ham img{
         width: 15px;
@@ -2285,6 +2285,11 @@ display: block;
         position: fixed;
         margin-left: -180px;
     }
+    .side-bar .ham{
+        display: block;
+        margin-top: 25px;
+        margin-left: 120px;
+    }
 
     .tootop{
         margin-left: 150px;
@@ -2498,6 +2503,15 @@ display: block;
         position: fixed;
         margin-left: -220px;
     }
+
+    .side-bar .ham{
+        display: block;
+        margin-top: 25px;
+        margin-left: 70px;
+    }
+
+
+
     .tootop{
         margin-left: 200px;
     }
@@ -2693,6 +2707,15 @@ display: block;
         position: fixed;
         margin-left: -220px;
     }
+    .side-bar .ham{
+        display: block;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+
+
+
     .tootop{
         margin-left: 250px;
     }
@@ -2859,7 +2882,7 @@ display: block;
     .side-bar .ham{
         display: block;
         margin-top: 25px;
-        margin-left: -20px;
+        margin-left: -30px;
     }
 
     .tootop{
@@ -3001,7 +3024,7 @@ display: block;
         padding-left: 90px;
     }
     .side-bar .ham{
-        margin-left: -60px;
+        margin-left: -80px;
     }
 
     .tootop{
@@ -3142,7 +3165,7 @@ display: block;
         margin-left: 400px;
     }
     .side-bar .ham{
-        margin-left: -120px;
+        margin-left: -130px;
     }
 
     .noti-down{
